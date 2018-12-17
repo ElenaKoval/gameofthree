@@ -1,0 +1,10 @@
+# Package Managers (NPM, Composer, Gems, Yarn)
+vendor/
+composer.phar
+
+# Gitignore file osx specific file system
+.DS_Store
+.AppleDouble
+
+# PHP Storm
+.idea
