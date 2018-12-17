@@ -7,34 +7,34 @@ When a player starts, a random whole number is generated and sent to the other p
 - Set up the application, go inside the directory:
    
 ```
-   $ cd gameofthree 
+cd gameofthree 
 ```
 - Make sure you have composer available:
 
 ```
-$ php composer.phar -V
+php composer.phar -V
 ```
 
 - Please install all necessary packages with the following link:
 https://getcomposer.org/download/ and run the command 
 
 ```
-$ php composer-setup.php --install-dir=bin --filename=composer
-$ mv composer.phar /usr/local/bin/composer
+php composer-setup.php --install-dir=bin --filename=composer
+mv composer.phar /usr/local/bin/composer
 ```
 
 - Install all all necessary packages for the task:
 
 ```
-$ composer install
+composer install
 ```
 
 - Play the game and check the result of the game the the console
 ```
-$ php play.php
+php play.php
 ```
 
 - Run all tests for the task: 
 ```
-$ ./vendor/bin/simple-phpunit --debug
+./vendor/bin/simple-phpunit --debug
 ```
